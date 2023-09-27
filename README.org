@@ -24,7 +24,7 @@ qmk setup
 #+end_src
 
 ** Build firmware
-Here the =planck_ez_glow_prmg01-comfy= is used as the example.
+Here the [[./planck_ez_glow_prmg01-comfy][planck_ez_glow_prmg01-comfy]] is used as the example.
 
 #+begin_src sh
 # Copy the layout source code
@@ -34,7 +34,7 @@ cp -r planck_ez_glow_prmg01-comfy/planck_ez_glow_prmg01-comfy_source $HOME/qmk_f
 qmk compile -kb planck/ez/glow -km prmg01-comfy
 #+end_src
 
-The firmware binary is located at =$HOME/qmk_firmware= by default.
+The firmware binary can be found at the root of the firmware repo, e.g. =$HOME/qmk_firmware/planck_ez_glow_prmg01-comfy.bin=.
 
 ** Flash firmware
 Use [[https://github.com/qmk/qmk_toolbox][QMK Toolbox]] or [[https://www.zsa.io/wally/][ZSA Wally]] to flash the firmware to the keyboard.
