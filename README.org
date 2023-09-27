@@ -3,6 +3,9 @@
 
 This repo contains my customized layouts for [[https://github.com/qmk/qmk_firmware][QMK]]/[[https://github.com/zsa/qmk_firmware][ZSA forked QMK]] compatible keyboards.
 
+* Previews
+[[https://configure.zsa.io/planck-ez/layouts/BPqo0/latest/0][planck_ez_glow_prmg01-comfy]]
+
 * Quick start
 ** Setup environment
 The [[https://docs.qmk.fm][QMK official doc]] is a good start point.
