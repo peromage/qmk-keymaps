@@ -26,6 +26,11 @@ qmk setup zsa/qmk_firmware -b firmware22
 qmk setup
 #+end_src
 
+** Apply patches (optional)
+#+begin_src sh
+git apply patches/planck_ez_glow_reduced-power-consumption.patch
+#+end_src
+
 ** Build firmware
 Here the [[./planck_ez_glow_prmg01-comfy][planck_ez_glow_prmg01-comfy]] is used as the example.
 
