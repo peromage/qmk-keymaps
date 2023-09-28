@@ -45,4 +45,13 @@ qmk compile -kb planck/ez/glow -km prmg01-comfy
 The firmware binary can be found at the root of the firmware repo, e.g. =$HOME/qmk_firmware/planck_ez_glow_prmg01-comfy.bin=.
 
 ** Flash firmware
-Use [[https://github.com/qmk/qmk_toolbox][QMK Toolbox]] or [[https://www.zsa.io/wally/][ZSA Wally]] to flash the firmware to the keyboard.
+For ZSA keyboards, use [[https://www.zsa.io/wally/][Wally]] (Linux/Windows/MacOS).
+
+For general QMK compatible keyboards, use [[https://github.com/qmk/qmk_toolbox][QMK Toolbox]] (Windows/MacOS).
+
+The more generic way is to flash through CLI (Linux/Windows/MacOS).
+#+begin_src sh
+qmk flash -kb planck/ez/glow -km prmg01-comfy
+#+end_src
+
+If the bootloader is not automatically detected, check out the [[https://docs.qmk.fm/#/flashing][QMK doc]].
